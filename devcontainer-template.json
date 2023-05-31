@@ -1,0 +1,23 @@
+{
+    "id": "rusty-py-postgres",
+    "version": "1.0.0",
+    "name": "Rust, Python & PostgreSQL",
+    "description": "Develop applications with Rust, Python and nPostgreSQL. Includes a Rust application container, a Python aplicaiton container and PostgreSQL server.",
+    "documentationURL": "https://github.com/max-retrocascade/rusty-py-postgres",
+    "publisher": "Max Callaghan",
+    "licenseURL": "https://github.com/max-retrocascade/rusty-py-postgres/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Debian OS version (use bullseye on local arm64/Apple Silicon):",
+            "proposals": [
+                "buster",
+                "bullseye"
+            ],
+            "default": "bullseye"
+        }
+    },
+    "platforms": [
+        "Ruby"
+    ]
+}

@@ -7,3 +7,14 @@ FROM mcr.microsoft.com/vscode/devcontainers/rust:1-${VARIANT}
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
    && apt-get -y install clang lld \
    && apt-get autoremove -y && apt-get clean -y
+
+# Install Python
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+   && apt-get -y install python3 python3-pip \
+   && apt-get autoremove -y && apt-get clean -y
+
+# Set the default Python version
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+# Update pip
+RUN pip3 install --upgrade pip
