@@ -42,9 +42,10 @@
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
-	"features": {
-		"ghcr.io/devcontainers/features/python:1": {},
-		"ghcr.io/devcontainers/features/rust:1": {},
-		"ghcr.io/devcontainers-contrib/features/postgres-asdf:1": {}
-	}
+	// Removed features as these containers are installed as part of th Dockerfile.
+	// "features": {
+	// 	"ghcr.io/devcontainers/features/python:1": {},
+	// 	"ghcr.io/devcontainers/features/rust:1": {},
+	// 	"ghcr.io/devcontainers-contrib/features/postgres-asdf:1": {}
+	// }
 }
