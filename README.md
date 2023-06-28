@@ -1,5 +1,5 @@
 # rusty-py-postgres
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/max-callaghan/rusty-py-postgres)
+[![Open in Codespaces](https://img.shields.io/static/v1?label=Codespaces&message=Open&color=blue&logo=github)](https://codespaces.new/max-callaghan/rusty-py-postgres?quickstart=1)
 
 [![Language: Rust](https://img.shields.io/badge/Language-Rust-darkorange)](https://www.rust-lang.org/)
 [![Language: Python](https://img.shields.io/badge/Language-Python-yellow)](https://www.python.org/)
