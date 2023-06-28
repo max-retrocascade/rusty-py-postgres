@@ -1,4 +1,10 @@
 # rusty-py-postgres
+[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/max-callaghan/rusty-py-postgres)
+
+[![Language: Rust](https://img.shields.io/badge/Language-Rust-darkorange)](https://www.rust-lang.org/)
+[![Language: Python](https://img.shields.io/badge/Language-Python-yellow)](https://www.python.org/)
+[![Database: PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blue)](https://www.postgresql.org/)
+
 Codespace, Dev-container, Docker setup for an environment including Rust, Python and Postgres.
 
 Created as an interation of the Rust-Postgres dev-container template (https://github.com/devcontainers/templates/tree/main/src/rust-postgres)
